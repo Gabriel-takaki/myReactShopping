@@ -12,12 +12,12 @@ class App extends React.Component {
   render() {
     return (
       <ContextProviders>
-<BrowserRouter>
+{/* <BrowserRouter> */}
       <Switch>
       <Route exact path="/" component={ Login } />
       <Route exact path="/search" component={ Search } />
       </Switch>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
       </ContextProviders>
     );
   }
